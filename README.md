@@ -5,7 +5,7 @@ show route map from gpx file
 * export FLASK_APP=app.py
 * export FLASK_ENV=development
 * flask run
-* 
+
 When want to use another gpx file, go back to the previous page to select file.
 
 ## how to deploy
