@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Flask App</title>
+</head>
+
+<body>
+    <form method="post" enctype="multipart/form-data" action="{{ url_for('index') }}" id="myform">
+        <label for="gpxfile">Select GPX file:</label>
+        <select id="gpxfile" name="gpxfile">
+            {% for filename in gpx_files %}
+            <option value="{{ filename }}">{{ filename }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <input type="submit" value="Select">
+    </form>
+
+    {% if graph_html %}
+    <div>{{ graph_html|safe }}</div>
+    {% endif %}
+</body>
+
+</html>
