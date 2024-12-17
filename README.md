@@ -1,11 +1,11 @@
-<<<<<<< HEAD
 # TraceRecoder
 多轨迹个性化显示的web应用
-=======
+
+ 
 # mapRecorder
 GPX运动轨迹程序，效果图如下：
 
-![效果图](https://pic.imgdb.cn/item/67619b2fd0e0a243d4e58bbd.png)
+![效果图](./效果展示.jpg)
 
 
 ## 环境配置
@@ -35,7 +35,7 @@ GPX运动轨迹程序，效果图如下：
 
 ## 效果展示：
 
-![效果图](https://pic.imgdb.cn/item/67619b2fd0e0a243d4e58bbd.png)
+![效果图](./效果展示.jpg)
 
 ## 项目说明
 1. 本项目出于个人兴趣，不可用于商业盈利；
